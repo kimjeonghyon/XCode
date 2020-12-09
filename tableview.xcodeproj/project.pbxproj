@@ -16,6 +16,7 @@
 		456B6B38257B3C0100D56DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456B6B36257B3C0100D56DF7 /* LaunchScreen.storyboard */; };
 		456B6B43257B3C0100D56DF7 /* tableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B6B42257B3C0100D56DF7 /* tableviewTests.swift */; };
 		456B6B4E257B3C0100D56DF7 /* tableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B6B4D257B3C0100D56DF7 /* tableviewUITests.swift */; };
+		458FA171257C7E0900D6E158 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458FA170257C7E0900D6E158 /* MovieVO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		456B6B49257B3C0100D56DF7 /* tableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		456B6B4D257B3C0100D56DF7 /* tableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewUITests.swift; sourceTree = "<group>"; };
 		456B6B4F257B3C0100D56DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		458FA170257C7E0900D6E158 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				456B6B34257B3C0100D56DF7 /* Assets.xcassets */,
 				456B6B36257B3C0100D56DF7 /* LaunchScreen.storyboard */,
 				456B6B39257B3C0100D56DF7 /* Info.plist */,
+				458FA170257C7E0900D6E158 /* MovieVO.swift */,
 			);
 			path = tableview;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				456B6B2C257B3C0000D56DF7 /* AppDelegate.swift in Sources */,
 				2A7909FE257B6CF700EC67BD /* ListViewController.swift in Sources */,
 				456B6B2E257B3C0000D56DF7 /* SceneDelegate.swift in Sources */,
+				458FA171257C7E0900D6E158 /* MovieVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
