@@ -33,4 +33,17 @@ class ListViewController : UITableViewController {
         
     }
     
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.list.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let row = self.list[indexPath.row]
+        // 테이블셀을 큐로부터 가져옴
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell")
+        cell!.textLabel!.text = row.title
+        return cell!
+    }
+    
 }
